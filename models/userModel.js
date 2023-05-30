@@ -1,7 +1,7 @@
 //Se trae la libreria express guardandola en una constante
 const mongoose = require("mongoose");
 //Se crea la constante Uri, en donde se indica la ruta de la base de datos, en donde se van a manipular las diferentes colecciones y documentos
-const uri = "agregar url coneccion a base de datos";
+const uri = "mongodb+srv://nicolasarci96:cYngHkoyLyV8fzGm@dbusers.sqpdskq.mongodb.net/DbUsers?retryWrites=true&w=majority";
 //se crea la conexion a la base de datos
 mongoose.connect(uri, {
     useNewUrlParser: true,
