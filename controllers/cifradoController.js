@@ -1,3 +1,5 @@
+//ignorar este archivo, se uso como ejemplo para ver como funcionaba el hash
+
 const bcrypt = require("bcryptjs");// o (bcrypt)
 
 //cifrado de password
