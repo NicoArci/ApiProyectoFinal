@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema({
     email: {type:String, required:true},
     telnumber:{type:Number, required:true},
     persontype:{type:String, required:true},
-    roll:{type:Array, required:true}
+    roll:{type:String, default:"user"}
 });
 //Se indica el nombre de la coleccion donde se va a guardar la documentacion creada
 module.exports = mongoose.model('UsuariosP', userSchema);
