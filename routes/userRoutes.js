@@ -9,7 +9,7 @@ const authController = require("../controllers/authContoller")
 //Se crean las rutas para los diferentes controladores get, put, etc
 router.get('/', userController.getAllUsers);
 
-router.post('/', userController.createUser);
+router.post('/create', userController.createUser);
 
 router.put('/:id', userController.updateUser);
 
